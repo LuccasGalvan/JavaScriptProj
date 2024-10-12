@@ -1,0 +1,18 @@
+.tabuleiro {
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
+  place-items: center;
+  justify-content: center;
+}
+
+.tabuleiro.x {
+  background-color: rgb(44, 135, 255);
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);;
+}
+
+.tabuleiro.o {
+  background-color: rgb(255, 70, 37);
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
